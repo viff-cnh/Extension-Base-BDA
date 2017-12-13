@@ -16,4 +16,7 @@
     <PackageReference Include="Landis.SpatialModeling" Version="1.0.0-CI00001" />
     <PackageReference Include="Troschuetz.Random" Version="4.2.0" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="DistParameters.cs" />
+  </ItemGroup>
 </Project>
