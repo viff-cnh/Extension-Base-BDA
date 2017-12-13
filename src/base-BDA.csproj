@@ -19,4 +19,7 @@
     <PackageReference Include="Landis.Library.Metadata" Version="1.0.0-CI00002" />
     <PackageReference Include="Landis.SpatialModeling" Version="1.0.0-CI00001" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="DistParameters.cs" />
+  </ItemGroup>
 </Project>
